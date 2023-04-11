@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  
+    Author: Mathieu Duplex
+    Date: 2/1/2023
+    Description: WEBD1000 e-portfolio
+-->
+<head>
+  <title>Portfolio Website-Duplex</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Duplex' Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Welcome to my page! </h2>
+                <p class="hero_desc">Database Administrator Student at NSCC</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Dependable IT Professional seeking opportunity to expand skills and contribute to company success<br> 
+                        Considered hardworking, ethical and detail-oriented.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: <b>Mathieu Duplex</b></li>
+                                <li>Age: <b>43</b></li>
+                                <li>Occupation: <b>Database Administrator</b></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>French : <b>Native/primary fluent</b></li>
+                                <li>English : <b>Upper Intermediate</b></li>
+                                <li><b>Married, 2 kids </b></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Dedicated professional with demonstrated strengths in customer service, time management and trend tracking<br>
+                             Good at troubleshooting problems and building successful solutions especially on data<br>
+                            Excellent verbal and written communicator with strong background cultivating positive relationships and exceeding goals<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Front-End Web Developer</h4>
+                            <p class="card-text mt-3">Use HTML & CSS and JavaScript coding languages to build websites that are responsive, user-friendly, and interactive.
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Database Administrator</h4>
+                            <p class="card-text mt-3">Handle a large, complex and often confidential information within a company's database.Create databases, safely providing colleagues access to the database, troubleshooting issues or conducting capacity planning.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Network Administrator</h4>
+                            <p class="card-text mt-3">Supervise the operation of a computer network for an organization and makes sure that servers function properly,
+                                 allowing customers and employees to communicate with each other, coordinate their actions and take care of essential tasks.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Junior Python & Java Developer </h4>
+                            <p class="card-text mt-3">Designs, develops, and manages Python and Java-based applications and software
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Data Analyst</h4>
+                            <p class="card-text mt-3">In charge of gathering, organizing, and analyzing data to answer questions and identify key trends.
+                                  Use data visualization tools <b>Tableau</b> to create graphs and charts that present their findings. These insights help inform important business decisions.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">SQL developper</h4>
+                            <p class="card-text mt-3">Write code that interacts with the database. This usually encompasses both T-SQL code such as stored procedures, functions, or triggers,
+                                 and ETL code using <b>SQL Server</b> Integration Services (SSIS).
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage6.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Interaction of data between Ms Access and Ms SQL Seever</h4>
+                            <p class="card-text">On a team of 5 NSCC Students, we worked  on this project as the final project of our Data Fundamental course during the Fall semester 2022.
+                                We build a database on Ms Access and create an input form, then import and connect that database to a backend on Ms SQL Server.
+                            We succeeded to input a data on our Access form and had it reflected directly to our SQL Server backend. </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage7.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Create a Debian Linux distros VM with No GUI</h4>
+                            <p class="card-text">I created on my laptop a no GUI VM with the Debian 11 Linus Distro OS.Then used it to write a script with the nano text editor  
+                                that yields a personalised welcome message and create a folder that will handle an inserted CD-ROM/USB disk.  </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Packet Tracer - Troubleshoot Static and Default Routes</h4>
+                            <p class="card-text">In this activity I troubleshoot static and default routes and repair any errors that I found.
+                                •	Troubleshoot IPv4 static routes.
+                                •	Troubleshoot IPv4 default routes.
+                                •	Troubleshoot IPv6 static routes.
+                                •	Configure IPv4 static routes.
+                                •	Configure IPv4 default routes.
+                                •	Configure IPv6 static routes.
+                                </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage2.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Use of Functions on database</h4>
+                            <p class="card-text">This was an individual Project on the winter semester 2023 at NSCC, where I created a database on SQL Server then write <b>Stored Procedures</b> ,
+                            create <b>Nonclustered Index</b> on it, as well as many <b>Scalar UDF</b> with parameters. </p>  
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage5.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">New York Crime data(2018-2022) Analysis</h4>
+                            <p class="card-text">I and my team of 4 other Students choose this Project as our end of <b>winter semester 2023 Project </b> at NSCC.Here we use the powerful and user-friendly Data visualization
+                                tool <b>Tableau</b> to analyse those data so as to see the trends of crimes occurence during hours of day, weekly, monthly and yearly.
+                            This could help visitor on planning safely their trip on his different borrows. </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Design and Coding a project of a College Accounting Application in Java </h4>
+                            <p class="card-text">My task was to create an accounting application for a college. The Accounting department wants to track Student fees and Staff payroll in the same application.
+                                 After all data is entered, the application will run a financial process that will either invoice students for that semester’s fees or pay staff their bi-weekly salary. 
+                                The application will start up with a Java Swing dialog that asks the user to enter Student, Staff or Finish.
+                                </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>   
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="display-google-map" style="height:100%; width:100%;max-width:100%;">
+                            <iframe id="iframe" style="height:100%;width:100%;border:0;" 
+                            src="https://www.google.com/maps/embed/v1/place?q=Halifax,+NS,+Canada&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="embedded-map-code" href="https://kbj9qpmy.com/hrn" id="grab-map-authorization">Hosting Right Now</a>
+                        
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Submit</button>
+
+                    <div class="col-lg-6">
+                        <!-- contact info fields -->
+                        <p><br><br><br>
+                            <b>Email: </b>duplexy03@gmail.com<br>
+                            <b>Phone: </b>(+1)902 580 6902 <br>       
+                            <b>Address: </b>6 Rosedale Dr Dartmouth,NS Canada.                     
+                        </p>
+                        <p><a href="#home">Back to the Top</a></p>
+                    </div>  
+                    
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content 
+ <script src="script/script.js"></script> -->
+
+</body>
+
+</html>
